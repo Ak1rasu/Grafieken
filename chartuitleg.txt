@@ -1,0 +1,29 @@
+const labels = [ //dit zijn de namen onderaan de grafiek die aangeven waarvan de data is
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+];
+
+const data = { //dit zijn de kleuren + waar de stippen zijn en waar de lijnen naar toe gaan
+    labels: labels,
+    datasets: [{
+        label: 'My First dataset',
+        backgroundColor: 'rgb(255,99,132)',
+        borderColor: 'rgb(255,99,132)',
+        data: [0, 10, 5, 2, 20, 30, 45],
+    }]
+};
+
+const config = { //dit is wat voor grafiek er komt
+    type: 'line',
+    data: data,
+    options: {}
+};
+
+const myChart = new Chart( //dit is waar de grafiek in geplaatst gaat worden
+    document.getElementById('js--chart--1'),
+    config
+);
