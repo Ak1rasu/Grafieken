@@ -10,8 +10,9 @@ html{
 
 body{
     padding: 4rem;
-    background-color: aliceblue;
+    background: linear-gradient(to right, #18efd0, #774e8a);
     font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .dashboard{
@@ -37,6 +38,7 @@ body{
     height: 50%;
     width: 48%;
     box-shadow: 0 1rem 5rem 0 rgba(0,0,0,0.2);
+    background: #fff6ff;
 }
 
 .card--first{
@@ -51,10 +53,6 @@ body{
     justify-content: center;
     align-items: center;
     padding: 2rem;
-}
-
-.card--third{
-    
 }
 
 .card--fourth{
@@ -78,6 +76,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 4rem;
+    background: #fff6ff;
 }
 
 .section--second canvas{

@@ -11,7 +11,8 @@ const data = {
     datasets: [{
         label: "Most played consoles in hours",
         data: [10000, 5000, 6000, 1000, 2000],
-        backgroundColors: ['green', 'blue', 'purple', 'red', 'yellow']
+        backgroundColor: ['#18efd0', '#00d3e3', '#00b5e8', '#1793d9', "#6170b7"],
+        borderColor: ["#97b1aa"],
     }]
 };
 
@@ -133,7 +134,8 @@ function getPokemon() {
         datasets: [{
             label: "Pokemon types",
             data: [],
-            backgroundColors: ['green', 'blue', 'purple', 'red', 'yellow']
+            backgroundColor: ['#18efd0', '#00ccc7', '#00a9b5', '#12879b', 
+                '#2b667c', '#2f4858', '#00d3e3', '#00b5e8', '#1793d9','#58ad9c', '#c5fcef',]
         }]
     };
 
