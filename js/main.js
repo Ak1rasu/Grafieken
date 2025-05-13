@@ -140,9 +140,9 @@ function getPokemon() {
     };
 
     const configPokemon = {
-        type: 'bar',
-        data: dataPokemon,
-    }
+    type: 'bar',
+    data: dataPokemon,
+};
 
     const graph = new Chart (document.getElementById('js--chart--2'), configPokemon);
 }
